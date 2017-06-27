@@ -5,32 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="debugging_jquery.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript">
-
-			$('p, h3, li').hoverfunction(){
-				$(this).css('color', 'white');
-			}, function(){
-				$(this).css('color', 'black');
-			});
-
-			$('a').click(function(){
-				alert("we don't actually serve pizza...");
-			});
-
-			$('img').click(function(){
-				$(this).slideUp();
-			);
-
-			$('h5').click(function(){
-				$('img').slide Down();
-			});
-
-			$('button').click(function(){
-				var result = $('input:checked').value()
-				alert("Thank you for your input, we like " + result + " too!");
-			});	
-
-	</script>
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 	<div id="wrapper">
